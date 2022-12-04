@@ -321,7 +321,7 @@ img {
 }
 /*-- PORTFOLIO main--*/
 .buttons {
-  margin-top: 94px;
+ /* margin-top: 94px;*/
   margin-bottom: 50px;
   font-family: inherit;
   color: var(--primary-text-color);
