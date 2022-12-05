@@ -321,8 +321,10 @@ img {
 }
 /*-- PORTFOLIO main--*/
 .buttons {
- /* margin-top: 94px;*/
+  /* margin-top: 94px;*/
+  padding: 6px 22px;
   margin-bottom: 50px;
+
   font-family: inherit;
   color: var(--primary-text-color);
   font-weight: 500;
@@ -348,12 +350,13 @@ img {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  gap: 30px;
+  gap: 8px;
 }
-.bottom-cards,
+
+/*.bottom-cards,
 .bottom-items :nth-child(n + 2) {
-  gap: 52px;
-}
+  gap: 52px;}*/
+
 /*--Projects*/
 .project-title {
   margin-bottom: 4px;
