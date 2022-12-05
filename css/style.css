@@ -161,12 +161,14 @@ img {
 
 .hero {
   background-color: var(--hero-background-color);
+  padding: 200px 0;
+  text-align: center;
 }
+
 .hero-title {
   width: 696px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 200px 0 30px;
+  margin: 0 auto 30px;
+
   color: var(--primary-white-color);
   font-weight: 900;
   font-size: 44px;
@@ -176,7 +178,7 @@ img {
   text-transform: uppercase;
 }
 .hero-btn {
-  margin: 0 auto 200px;
+  margin: 0 auto;
   color: var(--primary-white-color);
   background-color: var(--accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -194,6 +196,10 @@ img {
   background-color: var(--btn-background-color);
 }
 /* section переваги*/
+.advantage {
+  padding-bottom: 0;
+}
+
 .advantage-card {
   padding-top: 0;
 }
@@ -251,12 +257,19 @@ img {
   align-items: center;
   justify-content: space-between;
   gap: 30px;
-  border-radius: 4px;
-}
-.teamate {
-  margin-bottom: 30px;
 }
 
+/*.teamate {
+  background-color: var(--primary-white-color);*/
+
+.team-members {
+  padding: 30px 10px;
+  background-color: var(--primary-white-color);
+  border-radius: 4px;
+  box-shadow: 0px 2px 1px 0px #00000033;
+  box-shadow: 0px 1px 1px 0px #00000024;
+  box-shadow: 0px 1px 3px 0px #0000001F;
+}
 .team-workers {
   margin-bottom: 10px;
 
@@ -276,8 +289,7 @@ img {
 }
 /*footer*/
 .footer {
-  /* margin-top: 60px;*/
-  padding-bottom: 60px;
+  padding: 60px 0;
   background-color: var(--footer-background-color);
 }
 .footer-accent {
@@ -291,9 +303,9 @@ img {
 }
 .footer-logo {
   display: block;
-  padding-top: 60px;
-  padding-bottom: 60px;
+  margin-bottom: 28px;
 }
+
 .span-logo {
   margin-bottom: 28px;
   color: var(--primary-white-color);
