@@ -70,10 +70,10 @@ img {
   padding-left: 15px;
   padding-right: 15px;
 }
-.header-logo {
+/*.header-logo {
   padding-top: 24px;
   padding-bottom: 25px;
-}
+}*/
 
 .logo {
   /* padding-top: 24px;
@@ -90,37 +90,35 @@ img {
 }
 .header-container {
   display: flex;
-  width: 100%;
+  align-items: center;
+  /*width: 100%;
   align-items: center;
   justify-content: space-between;
   flex-grow: 1;
-  gap: 93px;
+  gap: 93px;*/
 }
 .navigation {
-  display: flex;
+  margin-left: 93px;
+}
+/* display: flex;
   align-items: center;
   flex-direction: row;
   flex-grow: 1;
   justify-content: space-between;
-}
+}*/
 
 .navigation-item {
   display: flex;
   flex-direction: row;
   align-items: center;
   gap: 50px;
-  padding-top: 32px;
-  padding-bottom: 32px;
 }
 
 .contact-card {
   display: flex;
-  flex-direction: row;
   align-items: center;
-  flex-grow: 1;
-  justify-content: end;
-  flex-wrap: nowrap;
   gap: 40px;
+  margin-left: auto;
 }
 
 .nav-content {
@@ -380,9 +378,7 @@ img {
 
 /*--Projects*/
 .list-box {
-  padding-top: 20px;
-  padding-left: 24px;
-  padding-right: 24px;
+  padding: 20px 24px;
 }
 
 .project-title {
@@ -395,7 +391,6 @@ img {
   text-decoration: none;
 }
 .project-work {
- padding-bottom: 20px;
   color: var(--title-text-color);
   font-weight: 400;
   font-size: 16px;
